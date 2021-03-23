@@ -1,6 +1,6 @@
 # Exercise 5: map basics
 
-Given an array of numbers from 1 to 8, we want to create 3 new arrays:
+Given an array of tvShows, we want to create 3 new arrays:
 
 - One including only the titles of the movies
 - One including objects that include only the `title` and the `rating` properties
