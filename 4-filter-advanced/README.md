@@ -8,4 +8,4 @@ Given an array of objects representing TV Shows, we want to create
 - One including only the TV Shows that were first published before 2015
 
 Create this 3 arrays using the `filter` method.
-`console.log` the newly created arrays to finish. Verify that they are including the correct tv shows.
+`console.table` the newly created arrays to finish. Verify that they are including the correct tv shows.
