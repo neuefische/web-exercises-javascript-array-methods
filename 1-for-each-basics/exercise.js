@@ -10,9 +10,8 @@ const movies = [
 
 // Implement your code below
 function printMovies(movies) {
+  //implement the function body
   movies.forEach((movie) => console.log(movie));
 }
-
 printMovies(movies);
-
 export default printMovies;
