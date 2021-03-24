@@ -8,12 +8,8 @@ const movies = [
   'The Hateful 8',
 ];
 
-// Your code below
-function printMoviesWithIndex(m) {
-  // implement the function body
-  m.forEach((movie, index) => {
-    console.log(`${index + 1}. ${movie}`);
-  });
+function printMoviesWithIndex(movies) {
+  // Your code goes here
 }
 
 printMoviesWithIndex(movies);

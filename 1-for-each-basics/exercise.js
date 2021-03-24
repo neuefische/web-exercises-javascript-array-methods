@@ -8,10 +8,10 @@ const movies = [
   'The Hateful 8',
 ];
 
-// Implement your code below
 function printMovies(movies) {
-  //implement the function body
-  movies.forEach((movie) => console.log(movie));
+  // Your code goes here
 }
+
 printMovies(movies);
+
 export default printMovies;

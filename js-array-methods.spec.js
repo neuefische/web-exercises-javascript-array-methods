@@ -10,9 +10,10 @@ describe('1-for-each-basics', () => {
       'Harry Potter II',
       'Harry Potter III',
     ];
-    const log = jest.spyOn(console, 'log');
+    const spy = jest.spyOn(console, 'log');
     printMovies(testMovies);
-    expect(log).toHaveBeenCalledTimes(testMovies.length);
+
+    expect(spy).toHaveBeenCalledTimes(testMovies.length);
   });
 });
 
@@ -23,29 +24,31 @@ describe('2-for-each-advanced', () => {
       'Harry Potter II',
       'Harry Potter III',
     ];
-    const log = jest.spyOn(console, 'log');
+    const spy = jest.spyOn(console, 'log');
     printMoviesWithIndex(testMovies);
 
-    expect(log).toHaveBeenLastCalledWith(
+    expect(spy).toHaveBeenLastCalledWith(
       expect.stringMatching(/3\..*Harry Potter III/)
     );
   });
 });
 
-describe.only('3-filter-basics', () => {
+describe('3-filter-basics', () => {
   it('should print two arrays', () => {
     const grades = [5, 1, 1.3, 3.7, 1.7, 2.1, 3, 2.4, 4.1, 6];
 
     const spy = jest.spyOn(console, 'table');
     printFilteredGrades(grades);
+
     expect(spy).toHaveBeenCalledTimes(2);
   });
-  it('should print one array that only includes grades lower than 3 ', () => {
+  it('should print one array that only includes grades lower than 3', () => {
     const grades = [5, 1, 1.3, 3.7, 1.7, 2.1, 3, 2.4, 4.1, 6];
     const higherGrades = [1, 1.3, 1.7, 2.1, 2.4];
 
     const spy = jest.spyOn(console, 'table');
     printFilteredGrades(grades);
+
     expect(spy).toHaveBeenCalledWith(higherGrades);
   });
 
@@ -55,6 +58,7 @@ describe.only('3-filter-basics', () => {
 
     const spy = jest.spyOn(console, 'table');
     printFilteredGrades(grades);
+
     expect(spy).toHaveBeenCalledWith(lowerGrades);
   });
 });

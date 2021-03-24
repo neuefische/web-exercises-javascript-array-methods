@@ -8,7 +8,6 @@ const movies = [
   'The Hateful 8',
 ];
 
-// Implement your code below
 function printMovies(movies) {
   movies.forEach((movie) => console.log(movie));
 }
