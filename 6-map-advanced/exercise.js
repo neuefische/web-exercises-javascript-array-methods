@@ -45,17 +45,11 @@ const tvShows = [
 
 // Your code below
 
-const showTitles = tvShows.map((show) => show.title);
+const showTitles = tvShows; // <– Your code goes here
 
-const tvShowsReduced = tvShows.map((show) => ({
-  title: show.title,
-  rating: show.rating,
-}));
+const tvShowsReduced = tvShows; // <– Your code goes here
 
-const showTitlesRated = tvShows.map((show) =>
-  show.rating >= 9 ? show.title.toUpperCase() : show.title.toLowerCase()
-);
-1;
+const showTitlesRated = tvShows; // <– Your code goes here
 
 console.table(showTitles);
 console.table(tvShowsReduced);
