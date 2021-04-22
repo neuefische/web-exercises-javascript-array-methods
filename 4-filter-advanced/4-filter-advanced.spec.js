@@ -5,7 +5,7 @@ import {
   printWatchedTvShows,
   printTvShowsWithHighestRating,
   printTvShowsFirstPublishedBeforeYear,
-} from './4-filter-advanced/exercise';
+} from './exercise';
 
 describe('4-filter-advanced', () => {
   it('should print an array that only includes watched TV shows', () => {

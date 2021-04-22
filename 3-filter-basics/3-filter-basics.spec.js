@@ -1,5 +1,5 @@
 import { jest } from '@jest/globals';
-import printFilteredGrades from './3-filter-basics/exercise';
+import printFilteredGrades from './exercise';
 
 describe('3-filter-basics', () => {
   it('should print two arrays', () => {

@@ -6,5 +6,5 @@ Given an array of numbers from 1 to 8, we want to create 3 new arrays:
 - One including the numbers divided by 2
 - One including the numbers multiplied by themselves
 
-Create this 3 arrays using the `map` method.
-`console.log` the newly created arrays to finish. Verify that they are including the correct numbers.
+Create these 3 arrays using the `map` method.
+`console.table` the newly created arrays to finish. Verify that they are including the correct numbers.

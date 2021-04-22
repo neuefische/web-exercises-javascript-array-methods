@@ -1,5 +1,5 @@
 import { jest } from '@jest/globals';
-import printMoviesWithIndex from './2-for-each-advanced/exercise';
+import printMoviesWithIndex from './exercise';
 
 describe('2-for-each-advanced', () => {
   it('should output a list of movies preceded by their index', () => {

@@ -1,10 +1,12 @@
 const numbers = [1, 2, 3, 4, 5, 6, 7, 8];
 
-const doubledNumbers = numbers.map((number) => number * 2);
+// Your code below
 
-const halvedNumbers = numbers.map((number) => number / 2);
+const doubledNumbers = numbers; // <– Your code goes here
 
-const multipliedNumbers = numbers.map((number) => number ** 2);
+const halvedNumbers = numbers; // <– Your code goes here
+
+const multipliedNumbers = numbers; // <– Your code goes here
 
 console.table(doubledNumbers);
 console.table(halvedNumbers);
