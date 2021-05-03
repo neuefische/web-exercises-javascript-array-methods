@@ -6,6 +6,11 @@ Exercises to learn and practice the `Array` methods:
 - `filter`
 - `map`
 
+## Validate your solutions
+
+For each exercise you can run automated tests which will validate your code.
+To start the test you simply run `npm run test:1` for the first exercise. Change the number after the colon for each exercise accordingly (e.g. `npm run test:2` for exercise 2).
+
 ## Resources
 
 ### MDN

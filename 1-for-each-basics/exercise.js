@@ -9,7 +9,7 @@ const movies = [
 ];
 
 function printMovies(movies) {
-  movies.forEach((movie) => console.log(movie));
+  // Your code goes here
 }
 
 printMovies(movies);

@@ -43,21 +43,16 @@ export const tvShows = [
   },
 ];
 
-// Your code below
-
 export function printWatchedTvShows(tvShows) {
-  const watchedTvShows = tvShows.filter((show) => show.watched);
-  console.table(watchedTvShows);
+  // Your code goes here
 }
 
 export function printTvShowsWithHighestRating(tvShows) {
-  const watchedTvShows = tvShows.filter((show) => show.rating >= 9);
-  console.table(watchedTvShows);
+  // Your code goes here
 }
 
 export function printTvShowsFirstPublishedBeforeYear(tvShows, year) {
-  const shows = tvShows.filter((show) => show.publishingYear < year);
-  console.table(shows);
+  // Your code goes here
 }
 
 printWatchedTvShows(tvShows);

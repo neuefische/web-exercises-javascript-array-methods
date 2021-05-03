@@ -1,4 +1,4 @@
-export const tvShows = [
+const tvShows = [
   {
     title: 'True Detective',
     publishingYear: 2014,
@@ -45,21 +45,14 @@ export const tvShows = [
 
 // Your code below
 
-export function printWatchedTvShows(tvShows) {
-  const watchedTvShows = tvShows.filter((show) => show.watched);
-  console.table(watchedTvShows);
-}
+const showTitles = tvShows; // <– Your code goes here
 
-export function printTvShowsWithHighestRating(tvShows) {
-  const watchedTvShows = tvShows.filter((show) => show.rating >= 9);
-  console.table(watchedTvShows);
-}
+const tvShowsReduced = tvShows; // <– Your code goes here
 
-export function printTvShowsFirstPublishedBeforeYear(tvShows, year) {
-  const shows = tvShows.filter((show) => show.publishingYear < year);
-  console.table(shows);
-}
+const showTitlesRated = tvShows; // <– Your code goes here
 
-printWatchedTvShows(tvShows);
-printTvShowsWithHighestRating(tvShows);
-printTvShowsFirstPublishedBeforeYear(tvShows, 2015);
+console.table(showTitles);
+console.table(tvShowsReduced);
+console.table(showTitlesRated);
+
+export { showTitles, tvShowsReduced, showTitlesRated };
