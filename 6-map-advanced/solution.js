@@ -55,7 +55,6 @@ const tvShowsReduced = tvShows.map((show) => ({
 const showTitlesRated = tvShows.map((show) =>
   show.rating >= 9 ? show.title.toUpperCase() : show.title.toLowerCase()
 );
-1;
 
 console.table(showTitles);
 console.table(tvShowsReduced);
