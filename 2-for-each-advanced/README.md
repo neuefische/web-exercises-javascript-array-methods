@@ -1,8 +1,8 @@
 # Exercise 2: forEach advanced
 
-Given an array of movies, iterate over them using the `forEach` method of the array type and `console.log` every movie in the array preceded by the index.
+Given an array of movies, iterate over them using the `forEach` method of the array type and `console.log` every movie in the array preceded by an ascending number.
 
-You can't use a variable for that. Check the resources to see how the you can do it just by using the `forEach` method.
+You can't use a variable for that. Check the resources to see how you can do it just by using the `forEach` method.
 
 ## Example output
 
