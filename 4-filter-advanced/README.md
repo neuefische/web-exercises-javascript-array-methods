@@ -7,5 +7,5 @@ Given an array of objects representing TV Shows, we want to create
 - One including only the TV Shows that have a rating greater or equal to 9
 - One including only the TV Shows that were first published before 2015
 
-Create this 3 arrays using the `filter` method.
+Create these 3 arrays using the `filter` method.
 `console.table` the newly created arrays to finish. Verify that they are including the correct tv shows.
